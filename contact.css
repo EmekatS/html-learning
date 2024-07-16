@@ -9,6 +9,7 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 15px 100px;
+    color: white;
 }
 header nav{
     align-items: center;
@@ -17,12 +18,18 @@ header nav{
 header nav a{
     text-decoration: none;
     margin-left: 20px;
-    color: black;
+    color: white;
     font-size: 20px;
 }
+h1{
+    display: inline;
+    background-color: blue;
+}
 span{
-    color: red; 
-    font-size: 50px;
-    font-weight: bold;
-    text-decoration: underline;
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-right: 100px;
 }
